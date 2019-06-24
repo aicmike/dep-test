@@ -1,0 +1,9 @@
+{
+	"name": "nevermike/dep-test",
+	"description": "dep-test",
+	"type": "project",
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=7.1.0",
+	},
+}
