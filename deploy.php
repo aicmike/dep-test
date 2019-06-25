@@ -20,6 +20,8 @@ set('shared_dirs', ['upload_dir']);
 set('writable_dirs', []);
 set('allow_anonymous_stats', false);
 
+set('keep_releases', 3);
+
 // Hosts
 
 host('nevermike.ru')
