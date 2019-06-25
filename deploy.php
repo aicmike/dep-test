@@ -48,20 +48,3 @@ task('deploy', [
 
 // [Optional] If deploy fails automatically unlock.
 after('deploy:failed', 'deploy:unlock');
-
-
-//host('nevermike.ru')
-//	->user('nevermike')
-//	->stage('production')
-//	->set('deploy_path', '/home/n/nevermike');
-//
-//set('shared_files', ['shared/1.txt']);
-//
-//task('test', function () {
-//	writeln('Hello world');
-//});
-//
-//task('pwd', function () {
-//	$result = run('pwd');
-//	writeln("Current dir: $result");
-//});
